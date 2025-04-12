@@ -1,8 +1,10 @@
 {
-    "name": "kz-assets",
-    "private": true,
-    "version": "0.0.0",
+    "name": "@andygr1n1/kz-assets",
+    "version": "1.0.37",
     "type": "module",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "scripts": {
         "build": "tsc && rm -rf dist && vite build"
     },
