@@ -1,9 +1,9 @@
 {
     "name": "@andygr1n1/kz-assets",
-    "version": "1.0.0",
+    "version": "1.0.5",
     "type": "module",
     "publishConfig": {
-        "registry": "https://github.com/andygr1n1/kz-assets"
+        "registry": "https://npm.pkg.github.com"
     },
     "scripts": {
         "build": "tsc && rm -rf dist && vite build"
