@@ -87,4 +87,4 @@ export * from './IconReact'
 export * from './IconTypescript'
 export * from './IconVue'
 export * from './IconLotus'
-   
+export * from './IconTag'
