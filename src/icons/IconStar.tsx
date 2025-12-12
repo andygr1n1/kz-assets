@@ -1,7 +1,6 @@
-import React from 'react'
 import type { SVGProps } from 'react'
 
-export function FilledStarAnimated(props: SVGProps<SVGSVGElement>) {
+export function IconFilledStarAnimated(props: SVGProps<SVGSVGElement>) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" {...props}>
             <path
@@ -27,7 +26,7 @@ export function FilledStarAnimated(props: SVGProps<SVGSVGElement>) {
     )
 }
 
-export function TwoToneStarAnimated(props: SVGProps<SVGSVGElement>) {
+export function IconTwoToneStarAnimated(props: SVGProps<SVGSVGElement>) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" {...props}>
             <path
@@ -53,7 +52,7 @@ export function TwoToneStarAnimated(props: SVGProps<SVGSVGElement>) {
     )
 }
 
-export function UnfilledStarAnimated(props: SVGProps<SVGSVGElement>) {
+export function IconUnfilledStarAnimated(props: SVGProps<SVGSVGElement>) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" {...props}>
             <path
@@ -72,7 +71,7 @@ export function UnfilledStarAnimated(props: SVGProps<SVGSVGElement>) {
     )
 }
 
-export function FilledStar(props: SVGProps<SVGSVGElement>) {
+export function IconFilledStar(props: SVGProps<SVGSVGElement>) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" {...props}>
             <path
@@ -83,7 +82,7 @@ export function FilledStar(props: SVGProps<SVGSVGElement>) {
     )
 }
 
-export function UnfilledStar(props: SVGProps<SVGSVGElement>) {
+export function IconUnfilledStar(props: SVGProps<SVGSVGElement>) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" {...props}>
             <path
