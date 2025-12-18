@@ -1,6 +1,6 @@
 {
     "name": "@andygr1n1/kz-assets",
-    "version": "1.0.38",
+    "version": "1.0.39",
     "type": "module",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
