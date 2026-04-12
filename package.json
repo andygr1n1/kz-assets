@@ -1,6 +1,6 @@
 {
     "name": "@andygr1n1/kz-assets",
-    "version": "1.0.64",
+    "version": "1.0.66",
     "type": "module",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
@@ -13,10 +13,12 @@
     ],
     "exports": {
         ".": {
+            "types": "./dist/index.d.ts",
             "import": "./dist/kz-assets.es.js",
             "require": "./dist/kz-assets.umd.js"
         },
-        "./dist/style.css": "./dist/style.css"
+        "./dist/style.css": "./dist/style.css",
+        "./style.css": "./dist/style.css"
     },
     "main": "./dist/kz-assets.umd.js",
     "module": "./dist/kz-assets.es.js",
