@@ -43,12 +43,23 @@ export function IconHeartOffMaterial(props: SVGProps<SVGSVGElement>) {
     )
 }
 
+export function IconHeartOutlined(props: SVGProps<SVGSVGElement>) {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" {...props}>
+            <path
+                fill="currentColor"
+                d="M11.29 20.66c.2.2.45.29.71.29s.51-.1.71-.29l7.5-7.5c2.35-2.35 2.35-6.05 0-8.41c-2.3-2.28-5.85-2.35-8.21-.2c-2.36-2.15-5.91-2.09-8.21.2c-2.35 2.36-2.35 6.06 0 8.41zM5.21 6.16C6 5.38 7 4.99 8.01 4.99s2.01.39 2.79 1.17l.5.5c.39.39 1.02.39 1.41 0l.5-.5c1.56-1.56 4.02-1.56 5.59 0c1.56 1.57 1.56 4.02 0 5.58l-6.79 6.79l-6.79-6.79a3.91 3.91 0 0 1 0-5.58Z"
+            ></path>
+        </svg>
+    )
+}
+
 export function IconHeartFilled(props: SVGProps<SVGSVGElement>) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" {...props}>
             <path
                 fill="currentColor"
-                d="M2 9.137C2 14 6.02 16.591 8.962 18.911C10 19.729 11 20.5 12 20.5s2-.77 3.038-1.59C17.981 16.592 22 14 22 9.138S16.5.825 12 5.501C7.5.825 2 4.274 2 9.137"
+                d="M11.29 20.69c.2.2.45.29.71.29s.51-.1.71-.29l7.5-7.5c2.35-2.35 2.35-6.05 0-8.41c-2.29-2.29-5.84-2.35-8.21-.2c-2.36-2.15-5.91-2.09-8.21.2c-2.35 2.36-2.35 6.06 0 8.41z"
             ></path>
         </svg>
     )
